@@ -1,0 +1,27 @@
+.header {
+  backdrop-filter: blur(5px); /* Adjust the blur level as needed */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.background-circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ff6b6b; // You can change the color
+  border-radius: 50%; // Makes it a circle
+  top: 50px; // Adjust position as needed
+  left: 50px;
+  z-index: -1; // Places the circle behind other content
+}
+
+.background-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid #ff6b6b; // Color of the triangle
+  top: 50px; // Adjust position as needed
+  left: 150px;
+  z-index: -1; // Places the triangle behind other content
+}

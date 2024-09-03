@@ -1,0 +1,16 @@
+/* Apply a brown shadow similar to a border */
+.card-container {
+  position: relative;
+}
+
+.card-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  box-shadow: 12px 12px 0 rgba(139, 69, 19, 0.5); /* Brown shadow */
+  border-radius: inherit; /* Match card border radius */
+}
