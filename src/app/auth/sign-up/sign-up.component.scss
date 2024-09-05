@@ -1,0 +1,42 @@
+:host {
+  .relative {
+    animation: slideIn 1s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .bg-rose-100 {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  }
+
+  form {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .rounded-full {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+}
