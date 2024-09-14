@@ -1,0 +1,60 @@
+// .buttons {
+//   .bg-glass {
+//     background: rgba(
+//       255,
+//       255,
+//       255,
+//       0.2
+//     ); /* Semi-transparent glass-like background */
+//     backdrop-filter: blur(10px); /* Blurring effect */
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+//     border: 1px solid rgba(255, 255, 255, 0.18); /* Slight border */
+//   }
+
+//   .hover\:shine-effect:hover {
+//     background: rgba(255, 255, 255, 0.4); /* Increased brightness on hover */
+//     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.4); /* Glow effect */
+//     transform: scale(1.05); /* Slight scale-up for shine effect */
+//     transition: all 0.3s ease-in-out; /* Smooth transition */
+//   }
+// }
+
+.glass-box {
+  box-sizing: border-box;
+  width: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px 4px 16px;
+  box-shadow: inset 0px 2px 6px 0px rgba(58, 110, 242, 0.41);
+  background-color: rgba(
+    6,
+    10,
+    30,
+    0.8
+  ); /* Semi-transparent background for glassy effect */
+  backdrop-filter: blur(10px); /* Adds the blurring effect */
+  border-radius: 32px;
+  border: 1px solid #1c244c; /* The same border color */
+  overflow: hidden;
+  white-space: pre;
+  color: var(--Neutral_01, #ffffff); /* Variable fallback for color */
+  line-height: 1.2;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative; /* Remove absolute if it's not required */
+
+  /* Hover effect */
+  &:hover {
+    background-color: rgba(
+      6,
+      10,
+      30,
+      0.9
+    ); /* Adjust transparency slightly on hover */
+    box-shadow: 0 0 15px rgba(58, 110, 242, 0.6); /* Increase shine/glow effect */
+    border: 1px solid rgba(58, 110, 242, 0.6); /* Add glow to the border on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+}
