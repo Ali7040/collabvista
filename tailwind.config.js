@@ -19,9 +19,8 @@ module.exports = {
           "Helvetica Neue",
           "sans-serif",
         ],
-      },
-      boxShadow: {
-        "custom-dark": "16px 16px 0 #DBAFA0", // Custom brown shadow
+        sora: ["Sora", "Sora Placeholder", "sans-serif"], // New custom class
+        inter: ["Inter", "Inter Placeholder", "sans-serif"], // New custom class
       },
     },
   },
