@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "custom-bg": "url('/assets/0pkkUPiiBy68AdWhcnSLJijrCvQ.svg')",
+      },
       fontFamily: {
         sans: [
           "Inter",

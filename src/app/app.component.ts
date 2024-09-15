@@ -5,6 +5,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { SearchComponent } from './shared/search/search.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LoginComponent } from './auth/login/login.component';
+import { AboutComponent } from './components/about/about.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { LoginComponent } from './auth/login/login.component';
     SearchComponent,
     SignUpComponent,
     LoginComponent,
+    AboutComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
