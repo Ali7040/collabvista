@@ -6,6 +6,8 @@ import { SearchComponent } from './shared/search/search.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LoginComponent } from './auth/login/login.component';
 import { AboutComponent } from './components/about/about.component';
+import { TrustedByComponent } from './components/trusted-by/trusted-by.component';
+import { FeaturesComponent } from './components/features/features.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +20,8 @@ import { AboutComponent } from './components/about/about.component';
     SignUpComponent,
     LoginComponent,
     AboutComponent,
+    TrustedByComponent,
+    FeaturesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
