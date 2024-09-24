@@ -1,0 +1,75 @@
+// section {
+//   background-color: #05071a; // Tailwind 'gray-900'
+// }
+
+// h1 {
+//   @apply text-white;
+// }
+
+// h3 {
+//   @apply text-white;
+// }
+
+// p {
+//   @apply text-gray-400;
+// }
+
+// .container {
+//   @apply max-w-6xl mx-auto px-4;
+// }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #1c244c;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 500px; /* Increase width */
+  height: 500px; /* Set height */
+  padding: 40px 24px;
+}
+
+.card-title h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: rgba(158, 163, 191, 1);
+}
+
+.card-background-wrapper {
+  position: relative;
+  width: auto;
+  height: 80%;
+  background-image: url("../../../assets/card-wrapper.png"); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: white; /* Adjust color for readability */
+}
+
+.card-metric {
+  margin: 10px 0;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.card-icons img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+}
+
+.card-footer p {
+  font-size: 0.9rem;
+  color: rgba(158, 163, 191, 1);
+}
