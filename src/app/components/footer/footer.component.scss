@@ -1,0 +1,17 @@
+footer {
+  a {
+    color: #b0b0b5;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .social-icons {
+    img {
+      filter: brightness(0.7);
+      &:hover {
+        filter: brightness(1);
+      }
+    }
+  }
+}

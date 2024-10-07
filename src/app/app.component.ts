@@ -8,6 +8,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { AboutComponent } from './components/about/about.component';
 import { TrustedByComponent } from './components/trusted-by/trusted-by.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import { FeaturesComponent } from './components/features/features.component';
     AboutComponent,
     TrustedByComponent,
     FeaturesComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
