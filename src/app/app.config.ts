@@ -6,7 +6,7 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 
 import { routes } from './app.routes';
 import { environment } from '../environments/environment';
-
+// commint
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
